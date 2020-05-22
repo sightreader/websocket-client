@@ -58,6 +58,11 @@ namespace Websocket.Client
             }); 
         }
 
+        public WebsocketClient(Uri url)
+        {
+            Url = url;
+        }
+
         /// <inheritdoc />
         public Uri Url
         {
